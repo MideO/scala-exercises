@@ -1,0 +1,12 @@
+*.log
+*.iml
+.idea/
+.bsp/
+.DS_Store
+/log/
+build/
+target/
+classes/
+**/out
+**/*.ipr
+**/*.iws
