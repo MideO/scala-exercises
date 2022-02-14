@@ -22,6 +22,11 @@ class CovariantHelperSpec extends Specification {
     val precise: Option[APAP] = ffff.cast[APAP]
 
     precise should beEqualTo(Some(a :: pee :: a :: pee :: HNil))
+
+    import shapeless._
+    import poly._
+    import syntax.std.tuple._
+    (23, "foo", true).drop(2) should beEqualTo(Tuple1(true))
   }
 
 
