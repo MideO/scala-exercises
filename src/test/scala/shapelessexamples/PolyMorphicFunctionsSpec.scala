@@ -18,6 +18,4 @@ class PolyMorphicFunctionsSpec extends Specification {
     polySize(((23, "foo"), 13)) should beEqualTo(5)
 
   }
-
-
 }
